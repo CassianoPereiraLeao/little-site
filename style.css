@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container div {
+    text-align: center;
+    width: 100%;
+    background-color: orangered;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    background-color: blue;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
